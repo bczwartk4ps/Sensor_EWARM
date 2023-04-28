@@ -25,7 +25,7 @@ extern int computeWeight(int p1);
  */
 uint32_t add(uint32_t a, uint32_t b)
 {
-	return a+b;
+	return a + b;
 }
 
 /************************
@@ -95,22 +95,29 @@ static int power(int base, int exp)
  * update struct values.
  *
  *********************/
+
+void log_error() {}
+
 static void updateStruct(uint16_t updateMsgType, struct allSensorState *as) {
 
-	switch (updateMsgType) {
-
-	case 0:
-		as->on = 0;
-		as->status = 1;
-		break;
-	case 1:
-		as->on = 1;
-		as->status = 1;
-		break;
-	default:
-		as->on = 0;
-		as->status = 0xBADF00D;
-		break;
+	if (updateMsgType < 100u) {
+		switch (updateMsgType) {
+		case 0:
+			as->on = 0;
+			as->status = 1;
+			break;
+		case 1:
+			as->on = 1;
+			as->status = 1;
+			break;
+		default:
+			as->on = 0;
+			as->status = 0xBADF00D;
+			break;
+		}
+	} else {
+		// error here
+		log_error();
 	}
 }
 
@@ -164,7 +171,7 @@ int processValue(int p1, int p2)
 	int weight = 0;
 	if (p1 > 0) {
 		weight = 100;
-	}else if (computeWeight(p1) > 0)
+	} else if (computeWeight(p1) > 0)
 	{
 		weight = computeWeight(globalState);
 	}
@@ -240,4 +247,86 @@ static void infiniteLoop(int c) {
 	c--;
 }
 
+
+int pseudo_main()
+{
+  int a = 1;
+  int b = 2;
+  int condition = 12;
+  
+  conditional_add(a, b, condition);  
+  
+  processValue(a, b);
+    
+  return 0;
+}
+
+
+
+
+void task_1() {}
+
+int task_2(void) { return 1; }
+
+void task_3(int i) {
+    // do something based on i
+}
+
+void doStuff(void) {
+    int data;
+    task_1();
+    data = task_2();
+    if (data > 0) {
+        task_3(data);
+    }
+}
+
+
+
+int op_add(int i, int j)
+{
+	return i + j;
+}
+int op_sub(int i, int j)
+{
+	return i - j;
+}
+int op_mul(int i, int j)
+{
+	return i * j;
+}
+typedef int (*MathOpInt_t)(int, int);
+
+#define ADD  1
+#define SUB  2
+#define MUL  3
+
+MathOpInt_t getMathOp(const int op)
+{
+	MathOpInt_t ret = NULL;
+	switch (op) {
+	case ADD:
+		ret = & op_add;
+		break;
+	case SUB:
+		ret = & op_sub;
+		break;
+	case MUL:
+		ret = & op_mul;
+		break;
+	default:
+		log_error();
+		break;
+	}
+	return ret;
+}
+
+int doMathOp(MathOpInt_t op, int i, int j)
+{
+	int ret = 0;
+	if (op != NULL) {
+		ret = (*op)(i, j);
+	}
+	return ret;
+}
 

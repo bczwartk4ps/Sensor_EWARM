@@ -1,0 +1,5 @@
+in_updateMsgType,in_as_on,in_as_status,out_as_on,out_as_status,n_calls
+0,10,10,0,1,0
+1,10,10,1,1,0
+2,10,10,0,0xBADF00D,0
+200,10,10,10,10,1

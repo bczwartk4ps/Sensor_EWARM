@@ -54,4 +54,9 @@ Steps:
     b. To check compliance agains a different standard, e.g. MISRA C 2012, select the whole project or individual files to analyze, right-click, and navigate to Parasoft> Test Using> Builtin> Compliance Packs> Automotive Pack> MISRA C 2012
     Note: recently used test configurations are later available under Parasoft> Test History
 
+9. Running unit tests.
+    a. Go to Parasoft menu> Test Configurations to open the dialog
+    b. Right-click User-defined node, select Import... and open   "C:\work\parasoft\Sensor_EWARM\scripts\Run IAR EW Tests Sensor.properties" file.  It will be imported under User-defined> Embedded Systems> IAR Systems
+    c. Right-click project node in Project Explorer or Test Case Explorer view, and select Parasoft> Test Using> User-defined> Embedded Systems> IAR Systems> Run IAR EW Tests Sensor
 
+    

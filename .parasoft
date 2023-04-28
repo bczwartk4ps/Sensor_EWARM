@@ -1,4 +1,15 @@
-#Fri Apr 28 16:19:50 CEST 2023
+#Fri Apr 28 16:35:27 CEST 2023
+.datasources/ds-module.CPP\://-7427911848371929711/datasources=ds_1031923597_1682692507837_1928541441
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.closeconn=true
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.contain_header=true
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.csv_file=${project_loc\:Sensor_EWARM}/tests/user/updateStruct.csv
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.first_row.internal=1
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.last_row.internal=1
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.name=updateStruct
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.quote="
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.separator=,
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.type=CSV
+.datasources/ds-module.CPP\://-7427911848371929711/ds_1031923597_1682692507837_1928541441.use_all_rows=true
 /Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.win32.x86=iccarm
 /Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.cpp.win32.x86=iccarm
 /Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=iccarm_9_10
