@@ -10,7 +10,7 @@ Prerequisites:
 Steps:
 (Adapt paths in commands and scripts to match your setup.)
 
-# --- One-time setup ---
+### --- One-time setup ---
 
 0. Verify IAR EWARM Project
    - Open the Sensor.eww in IAR EWARM IDE, right-click project node and select "Options"
@@ -29,7 +29,7 @@ Steps:
 4. Launch C/C++test Professional from *the same* command prompt.  
     Make sure to specify workspace location (i.e., the -data option) *outside* of the project, for example:
         cpptest -data C:\work\parasoft\workspace &
-    Note: Always launch C/C++test from the console with propely initialized environment.
+   - Note: Always launch C/C++test from the console with propely initialized environment.
         
 5. Initial C/C++test Professional configuration (once per workspace):
    - Open Parasoft menu> Preferences...
@@ -50,14 +50,14 @@ Steps:
    - In "Options source:" select "Use options from build data file" and update BDF path to be "${project_loc}/Debug/cpptestscan.bdf".
    - In "Compiler settings"> Family select "IAR Compiler for ARM(R) v. 9.10.x" and accept the choice.  Compiler and linker programs shoudl switch to iccarm and ilinkarm, respectively.  
    - Apply the changes.
-   Note: the environment set earlier allows C/C++test to locate compiler on the PATH.
+   - Note: the environment set earlier allows C/C++test to locate compiler on the PATH.
 
-# --- Running tests ---
+### --- Running tests ---
 
 8. Running static analysis.
    - Right-click the top level project node and select Parasoft> Test Using "Example Configuration".
    - To check compliance agains a different standard, e.g. MISRA C 2012, select the whole project or individual files to analyze, right-click, and navigate to Parasoft> Test Using> Builtin> Compliance Packs> Automotive Pack> MISRA C 2012
-   Note: recently used test configurations are later available under Parasoft> Test History
+   - Note: recently used test configurations are later available under Parasoft> Test History
 
 9. Running unit tests.
    - Go to Parasoft menu> Test Configurations to open the dialog
