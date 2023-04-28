@@ -13,11 +13,11 @@ Steps:
 ### --- One-time setup ---
 
 0. Verify IAR EWARM Project
-   - Open the Sensor.eww in IAR EWARM IDE, right-click project node and select "Options"
-   - In General Options> Library Configuration select "Full"
-   - In Linker> Config, edit the settings and set CSTACK to 0x1000 and HEAP to 0x600, if set to less than these.
-   - In Debugger> Setup select Simulator or your debug probe.
-   - Rebuild the project and run on the selected target to make sure that project works.
+   1. Open the Sensor.eww in IAR EWARM IDE, right-click project node and select "Options"
+   2. In General Options> Library Configuration select "Full"
+   3. In Linker> Config, edit the settings and set CSTACK to 0x1000 and HEAP to 0x600, if set to less than these.
+   4. In Debugger> Setup select Simulator or your debug probe.
+   5. Rebuild the project and run on the selected target to make sure that project works.
   
 1. Launch Windows command prompt and cd to the root of this project.
  
