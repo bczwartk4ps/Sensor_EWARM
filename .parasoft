@@ -1,0 +1,8 @@
+#Fri Apr 28 16:12:32 CEST 2023
+/Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.win32.x86=iccarm
+/Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.cpp.win32.x86=iccarm
+/Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=iccarm_9_10
+/Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.extractor.id=options_dir_extractor_id
+/Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.linker.command.win32.x86=ilinkarm
+/Sensor_EWARM//com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=${project_loc}/Debug/cpptestscan.bdf
+project.path=/Sensor_EWARM
