@@ -38,6 +38,8 @@ Steps:
    3. (Optional) Go to Parasoft> Reports panel to configure reporting options if needed.
    4. (Optional) Go to Parasoft> Console and set verbosity to High.  Useful during initial configuration to monitor details of analyses and tests being performed.
 
+##### - Option 1 - import existing C/C++test project
+
 6. Import C/C++test project
 In the Sensor_EWARM.zip example, the C/C++test project is already created (.project, .parasoft, .cproject files).  It can be imported into C/C++test as is.  Follow steps in sections #7 and #8 to create and configure C/C++test project from scratch.
     To import existing C/C++test project:
@@ -45,7 +47,9 @@ In the Sensor_EWARM.zip example, the C/C++test project is already created (.proj
    2. Select General> Existing Projects into Workspace > Next
    3. Use "Browse..." button for "Select root directory" and navigate to the project folder (C:\work\parasoft\Sensor_EWARM in our case).
    4. List of projects in the dialog will be populated with Sensor.  Press Finish to import the project.
+   5. Proceed now to section #9.
 
+##### - Option 2 - create and configure C/C++test project
 7. Create C/C++test test project:
    1. In C/C++test Professional IDE go to File> New> Project... to start the wizard
    2. Select C/C++> C Project > Next
