@@ -42,7 +42,7 @@ Steps:
 In the Sensor_EWARM.zip example, the C/C++test project is already created (.project, .parasoft, .cproject files).  It can be imported into C/C++test as is.  Follow steps in sections #7 and #8 to create and configure C/C++test project from scratch.
     To import existing C/C++test project:
    1. Open File> Import... dialog
-   2. Select General> Existing Porjects into Workspace > Next
+   2. Select General> Existing Projects into Workspace > Next
    3. Use "Browse..." button for "Select root directory" and navigate to the project folder (C:\work\parasoft\Sensor_EWARM in our case).
    4. List of projects in the dialog will be populated with Sensor.  Press Finish to import the project.
 
@@ -70,8 +70,8 @@ In the Sensor_EWARM.zip example, the C/C++test project is already created (.proj
    - Note: recently used test configurations are later available under Parasoft> Test History
 
 10. Running unit tests.
-   1. Go to Parasoft menu> Test Configurations to open the dialog
-   2. Right-click User-defined node, select Import... and open   "C:\work\parasoft\Sensor_EWARM\scripts\Run IAR EW Tests Sensor.properties" file.  It will be imported under User-defined> Embedded Systems> IAR Systems
-   3. Right-click project node in Project Explorer or Test Case Explorer view, and select Parasoft> Test Using> User-defined> Embedded Systems> IAR Systems> Run IAR EW Tests Sensor
+    1. Go to Parasoft menu> Test Configurations to open the dialog
+    2. Right-click User-defined node, select Import... and open   "C:\work\parasoft\Sensor_EWARM\scripts\Run IAR EW Tests Sensor.properties" file.  It will be imported under User-defined> Embedded Systems> IAR Systems
+    3. Right-click project node in Project Explorer or Test Case Explorer view, and select Parasoft> Test Using> User-defined> Embedded Systems> IAR Systems> Run IAR EW Tests Sensor
 
     
