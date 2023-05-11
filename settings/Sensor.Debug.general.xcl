@@ -1,12 +1,12 @@
-"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armPROC.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armSIM2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armsim2.dll" 
 
-"C:\work\parasoft\Sensor_EWARM\Debug\Exe\Sensor.out" 
+"E:\work\customers\BH\projects\iar8\Sensor_EWARM\Debug\Exe\Sensor.out" 
 
---plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armbat.dll" 
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
 
---device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/ST/STM32F4xx.dmac" 
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\ST\STM32F4xx.dmac" 
 
 
 

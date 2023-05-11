@@ -3,8 +3,8 @@
 /* CPPTEST_TEST_SUITE_CODE_BEGIN AdditionalIncludes */
 /* CPPTEST_TEST_SUITE_CODE_END AdditionalIncludes */
 
-CPPTEST_CONTEXT("/Sensor_EWARM/testedFunctions.c");
-CPPTEST_TEST_SUITE_INCLUDED_TO("/Sensor_EWARM/testedFunctions.c");
+CPPTEST_CONTEXT("../../testedFunctions.c");
+CPPTEST_TEST_SUITE_INCLUDED_TO("../../testedFunctions.c");
 
 EXTERN_C_LINKAGE void TestSuite_testedFunctions_c_9bf41ea9_testSuiteBegin(void);
 EXTERN_C_LINKAGE int TestSuite_testedFunctions_c_9bf41ea9_callTest(const char*);

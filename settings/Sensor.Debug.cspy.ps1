@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\work\parasoft\Sensor_EWARM\settings\Sensor.Debug.general.xcl" --backend -f "C:\work\parasoft\Sensor_EWARM\settings\Sensor.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "E:\work\customers\BH\projects\iar8\Sensor_EWARM\settings\Sensor.Debug.general.xcl" --backend -f "E:\work\customers\BH\projects\iar8\Sensor_EWARM\settings\Sensor.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\work\parasoft\Sensor_EWARM\settings\Sensor.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\work\parasoft\Sensor_EWARM\settings\Sensor.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "E:\work\customers\BH\projects\iar8\Sensor_EWARM\settings\Sensor.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\work\customers\BH\projects\iar8\Sensor_EWARM\settings\Sensor.Debug.driver.xcl" 
 }
